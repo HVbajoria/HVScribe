@@ -1,7 +1,7 @@
 'use server';
 
 /**
- * @fileOverview This file defines a Genkit flow to generate lesson content in markdown format using the Gemini 2.5 Flash Lite model.
+ * @fileOverview This file defines a Genkit flow to generate lesson content in markdown format using the Gemini 2.0 Flash Lite model.
  *
  * - generateLessonContent - A function that takes lesson name and slides content as input and returns markdown formatted lesson content.
  * - GenerateLessonContentInput - The input type for the generateLessonContent function.

@@ -20,7 +20,7 @@ export default function Home() {
         </Button>
       </div>
       <footer className="absolute bottom-4 text-sm text-foreground/60">
-        <p>Powered by Gemini 2.5 Flash Lite</p>
+        <p>Powered by Gemini 2.0 Flash Lite</p>
       </footer>
     </main>
   );

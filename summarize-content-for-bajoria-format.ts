@@ -133,7 +133,7 @@ const summarizeContentForBajoriaFormatFlow = ai.defineFlow(
   async input => {
     const jsonData = JSON.stringify(input);
     let summary = '';
-    for (let i = 0; i < 3; i++) {
+    for (let i = 0; i < 2; i++) {
       const {output} = await summarizeContentPrompt({jsonData});
       if (output?.summary?.includes('<<Unstop>>')) {
         summary = output.summary;

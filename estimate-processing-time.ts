@@ -34,7 +34,7 @@ const estimateProcessingTimePrompt = ai.definePrompt({
   input: {schema: EstimateProcessingTimeInputSchema},
   output: {schema: EstimateProcessingTimeOutputSchema},
   config: {
-    model: 'googleai/gemini-2.5-flash-lite',
+    model: 'googleai/gemini-2.0-flash-lite',
   },
   prompt: `You are an expert at estimating processing times for AI lesson generation.
 
